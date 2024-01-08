@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.SearchAndroidList" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.SearchAndroidList" parent="Theme.MaterialComponents.DayNight" >
+        <item name="android:titleTextColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+
+    </style>
+<!--    &lt;!&ndash; Base application theme. &ndash;&gt;-->
+<!--    <style name="Base.Theme.SearchAndroidList" parent="android:Theme.Material.">-->
+<!--        <item name="android:titleTextColor">@color/white</item>-->
+<!--        &lt;!&ndash; Customize your light theme here. &ndash;&gt;-->
+<!--        &lt;!&ndash; <item name="colorPrimary">@color/my_light_primary</item> &ndash;&gt;-->
+<!--    </style>-->
+
 </resources>
